@@ -1,9 +1,9 @@
 let inputDir={x:0,y:0};
 let direction = { x: 0, y: 0 };
-let foodSound = new Audio('./music/food.mp3');
-let gameoverSound = new Audio('./music/gameover.mp3');
-let moveSound = new Audio('./music/move.mp3');
-let musicSound = new Audio('./music/music.mp3');
+let foodSound = new Audio('food.mp3');
+let gameoverSound = new Audio('gameover.mp3');
+let moveSound = new Audio('move.mp3');
+let musicSound = new Audio('music.mp3');
 let speed = 3;
 let score=0;
 let lastPaintTime = 0;
